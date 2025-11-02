@@ -1,0 +1,58 @@
+/**/
+.hidden {
+  display: none;
+}
+/**/
+body {
+  font-family: "Quicksand", sans-serif;
+  background: #e0cbb4;
+  color: #0b0803;
+}
+/*reset*/
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; /*Скидає відступи*/
+}
+
+a {
+  text-decoration: none; /**/
+  color: inherit; /**/
+}
+
+/*.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+  */
+
+img {
+  display: block; /*Створює блокові елементи*/
+  max-width: 100%; /*Максимальна ширина*/
+  height: auto; /*Висота підлаштовується під контент*/
+  background-position: center; /*Вирівнює фон по центру*/
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  cursor: pointer;
+}
