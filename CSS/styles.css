@@ -7,14 +7,14 @@
 }
 /**/
 body {
-  font-family: "Quicksand", sans-serif; /*шрифт*/
+  font-family: "Quicksand", sans-serif; /*встановлює шрифт*/
   background-color: #e0cbb4; /*колір фону*/
   color: #0b0803; /*колір тексту*/
 }
 /*reset*/
 ul,
 ol {
-  list-style-type: none;
+  list-style-type: none; /*скидає крапочки із списків*/
   margin: 0;
   padding: 0;
 }
@@ -29,7 +29,7 @@ h6 {
 }
 
 a {
-  text-decoration: none; /**/
+  text-decoration: none; /*скидає підкреслення у посилань*/
   color: inherit; /**/
 }
 
