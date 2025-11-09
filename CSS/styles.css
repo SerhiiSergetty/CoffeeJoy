@@ -65,5 +65,5 @@ button {
   margin: 0 auto;
 }
 
-@media screen {
+@media screen and (min-width: 768px) {
 }
