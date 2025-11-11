@@ -32,8 +32,8 @@ a {
   text-decoration: none; /**/
   color: inherit; /**/
 }
-
-/*.visually-hidden {
+/*
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -45,15 +45,15 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-  */
+*/
 
 img {
   display: block; /*Створює блокові елементи*/
   max-width: 100%; /*Максимальна ширина*/
   height: auto; /*Висота підлаштовується під контент*/
   background-position: center; /*Вирівнює фон по центру*/
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-size: cover; /* зівномірно мачштабує зображення*/
+  background-repeat: no-repeat; /*не повторювати зображення*/
 }
 
 button {
