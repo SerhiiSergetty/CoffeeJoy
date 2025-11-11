@@ -57,10 +57,14 @@ img {
 }
 
 button {
-  cursor: pointer;
+  cursor: pointer; /* додає руку на посилання*/
 }
 .container {
   max-width: 320px;
   padding: 0 16px;
   margin: 0 auto;
+}
+
+/*header*/
+.header-logo {
 }
